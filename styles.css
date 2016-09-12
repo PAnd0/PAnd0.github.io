@@ -1,1 +1,30 @@
-body {background:blue;}
+body {
+  max-width: 1001px;
+  position: relative;
+  padding: 20px;
+  border: solid green 2px;
+  font-family: Verdana;
+}
+
+ul {
+  margin: 25px;
+}
+
+a:visited {
+  color: green;
+}
+
+.copyright {
+  text-align: center;
+}
+
+#tomato-pic {
+  position: fixed;
+  z-index: -1;
+}
+
+@media (min-width: 1000px) {
+  body {
+    columns: 2 200px;
+  }
+}
